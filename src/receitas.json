@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "bolo de chocolate",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "ovo", "açucar", "chocolate", "leite", "oleo", "fermento"]
+  },
+
+  {
+    "nome": "omelete",
+    "tipo": "salgado",
+    "ingredientes": ["ovo", "sal", "queijo"]
+  }
+]
