@@ -4,10 +4,199 @@
     "tipo": "doce",
     "ingredientes": ["farinha", "ovo", "açucar", "chocolate", "leite", "oleo", "fermento"]
   },
-
+  {
+    "nome": "bolo simples",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "ovo", "açucar", "leite", "fermento"]
+  },
+  {
+    "nome": "panqueca doce",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "ovo", "leite", "açucar"]
+  },
+  {
+    "nome": "panqueca salgada",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "ovo", "leite", "sal"]
+  },
+  {
+    "nome": "brigadeiro",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "chocolate", "manteiga"]
+  },
+  {
+    "nome": "mingau",
+    "tipo": "doce",
+    "ingredientes": ["leite", "açucar", "amido de milho"]
+  },
+  {
+    "nome": "vitamina de banana",
+    "tipo": "doce",
+    "ingredientes": ["banana", "leite", "açucar"]
+  },
+  {
+    "nome": "café com leite",
+    "tipo": "doce",
+    "ingredientes": ["café", "leite", "açucar"]
+  },
+  {
+    "nome": "salada de frutas",
+    "tipo": "doce",
+    "ingredientes": ["banana", "maçã", "laranja"]
+  },
+  {
+    "nome": "doce de banana",
+    "tipo": "doce",
+    "ingredientes": ["banana", "açucar"]
+  },
   {
     "nome": "omelete",
     "tipo": "salgado",
     "ingredientes": ["ovo", "sal", "queijo"]
+  },
+  {
+    "nome": "ovo frito",
+    "tipo": "salgado",
+    "ingredientes": ["ovo", "oleo", "sal"]
+  },
+  {
+    "nome": "ovo mexido",
+    "tipo": "salgado",
+    "ingredientes": ["ovo", "manteiga", "sal"]
+  },
+  {
+    "nome": "arroz branco",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "agua", "sal", "alho"]
+  },
+  {
+    "nome": "arroz com alho",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "alho", "oleo", "sal"]
+  },
+  {
+    "nome": "macarrão simples",
+    "tipo": "salgado",
+    "ingredientes": ["macarrão", "agua", "sal", "oleo"]
+  },
+  {
+    "nome": "macarrão com molho",
+    "tipo": "salgado",
+    "ingredientes": ["macarrão", "molho de tomate", "sal"]
+  },
+  {
+    "nome": "macarrão com queijo",
+    "tipo": "salgado",
+    "ingredientes": ["macarrão", "queijo", "sal"]
+  },
+  {
+    "nome": "sanduíche de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["pão", "queijo", "manteiga"]
+  },
+  {
+    "nome": "sanduíche de presunto",
+    "tipo": "salgado",
+    "ingredientes": ["pão", "presunto", "queijo"]
+  },
+  {
+    "nome": "torrada com manteiga",
+    "tipo": "salgado",
+    "ingredientes": ["pão", "manteiga"]
+  },
+  {
+    "nome": "pizza simples",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "fermento", "agua", "sal", "queijo", "molho de tomate"]
+  },
+  {
+    "nome": "pizza de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "queijo", "molho de tomate"]
+  },
+  {
+    "nome": "salada simples",
+    "tipo": "salgado",
+    "ingredientes": ["alface", "tomate", "sal", "azeite"]
+  },
+  {
+    "nome": "salada de tomate",
+    "tipo": "salgado",
+    "ingredientes": ["tomate", "sal", "azeite"]
+  },
+  {
+    "nome": "salada completa",
+    "tipo": "salgado",
+    "ingredientes": ["alface", "tomate", "cenoura", "azeite", "sal"]
+  },
+  {
+    "nome": "sopa de legumes",
+    "tipo": "salgado",
+    "ingredientes": ["batata", "cenoura", "agua", "sal"]
+  },
+  {
+    "nome": "purê de batata",
+    "tipo": "salgado",
+    "ingredientes": ["batata", "leite", "manteiga", "sal"]
+  },
+  {
+    "nome": "batata frita",
+    "tipo": "salgado",
+    "ingredientes": ["batata", "oleo", "sal"]
+  },
+  {
+    "nome": "frango grelhado",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "sal", "oleo"]
+  },
+  {
+    "nome": "frango com arroz",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "arroz", "sal"]
+  },
+  {
+    "nome": "bolo de cenoura",
+    "tipo": "doce",
+    "ingredientes": ["cenoura", "farinha", "ovo", "açucar", "oleo", "fermento"]
+  },
+  {
+    "nome": "bolo de banana",
+    "tipo": "doce",
+    "ingredientes": ["banana", "farinha", "ovo", "açucar"]
+  },
+  {
+    "nome": "pão caseiro",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "agua", "fermento", "sal"]
+  },
+  {
+    "nome": "pão doce",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "açucar", "fermento", "leite"]
+  },
+  {
+    "nome": "biscoito simples",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "açucar", "manteiga"]
+  },
+  {
+    "nome": "biscoito de chocolate",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "açucar", "chocolate", "manteiga"]
+  },
+  {
+    "nome": "suco de laranja",
+    "tipo": "doce",
+    "ingredientes": ["laranja", "agua", "açucar"]
+  },
+  {
+    "nome": "suco de limão",
+    "tipo": "doce",
+    "ingredientes": ["limão", "agua", "açucar"]
+  },
+  {
+    "nome": "chá",
+    "tipo": "doce",
+    "ingredientes": ["agua", "erva", "açucar"]
   }
 ]
