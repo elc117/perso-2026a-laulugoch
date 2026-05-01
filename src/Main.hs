@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Web.Scotty
+import Funcoes
 
 main :: IO ()
 main = scotty 3000 $ do
