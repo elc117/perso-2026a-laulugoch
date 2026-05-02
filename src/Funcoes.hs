@@ -25,3 +25,12 @@ carregarReceitas = do
   case receitas of
     Just rs -> return rs
     Nothing -> return []
+
+possuiTodos :: [String] -> Receita -> Bool
+possuiTodos ingredientesUsuario receita = all (`elem` ingredientesUsuario) (ingredientes receita) 
+
+recomendarPossiveis :: [String] -> [Receita] -> [Receita]
+recomendarPossiveis ingredientesUsuario receitas = filter (possuiTodos ingredientesUsuario) receitas
+
+receitasQuase :: [String] -> [Receita] -> [Receita]
+receitaQuase 

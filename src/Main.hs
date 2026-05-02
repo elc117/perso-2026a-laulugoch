@@ -3,4 +3,6 @@ import Funcoes
 main :: IO ()
 main = do
   receitas <- carregarReceitas
-  print receitas
+  let minhas = ["ovo", "farinha", "leite", "açucar"]
+  let resultado = recomendarPossiveis minhas receitas
+  print resultado
