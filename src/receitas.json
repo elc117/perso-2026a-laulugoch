@@ -198,5 +198,130 @@
     "nome": "cha",
     "tipo": "doce",
     "ingredientes": ["agua", "erva", "açucar"]
+  },
+  {
+    "nome": "lasanha simples",
+    "tipo": "salgado",
+    "ingredientes": ["massa de lasanha", "carne moida", "molho de tomate", "queijo", "sal"]
+  },
+  {
+    "nome": "strogonoff de frango",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "creme de leite", "molho de tomate", "sal"]
+  },
+  {
+    "nome": "strogonoff de carne",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "creme de leite", "molho de tomate", "sal"]
+  },
+  {
+    "nome": "farofa simples",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "manteiga", "sal"]
+  },
+  {
+    "nome": "farofa com ovo",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "ovo", "manteiga", "sal"]
+  },
+  {
+    "nome": "cuscuz simples",
+    "tipo": "salgado",
+    "ingredientes": ["flocao", "agua", "sal"]
+  },
+  {
+    "nome": "cuscuz com ovo",
+    "tipo": "salgado",
+    "ingredientes": ["flocao", "agua", "ovo", "sal"]
+  },
+  {
+    "nome": "hamburguer caseiro",
+    "tipo": "salgado",
+    "ingredientes": ["carne moida", "sal"]
+  },
+  {
+    "nome": "hamburguer completo",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "carne", "queijo", "alface", "tomate"]
+  },
+  {
+    "nome": "hot dog",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "salsicha", "molho de tomate"]
+  },
+  {
+    "nome": "pudim de leite",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "leite", "ovo", "açucar"]
+  },
+  {
+    "nome": "gelatina",
+    "tipo": "doce",
+    "ingredientes": ["gelatina", "agua"]
+  },
+  {
+    "nome": "gelatina com creme",
+    "tipo": "doce",
+    "ingredientes": ["gelatina", "creme de leite"]
+  },
+  {
+    "nome": "mousse de chocolate",
+    "tipo": "doce",
+    "ingredientes": ["chocolate", "creme de leite"]
+  },
+  {
+    "nome": "mousse de maracuja",
+    "tipo": "doce",
+    "ingredientes": ["maracuja", "leite condensado", "creme de leite"]
+  },
+  {
+    "nome": "arroz doce",
+    "tipo": "doce",
+    "ingredientes": ["arroz", "leite", "açucar"]
+  },
+  {
+    "nome": "crepioca",
+    "tipo": "salgado",
+    "ingredientes": ["ovo", "tapioca", "sal"]
+  },
+  {
+    "nome": "tapioca simples",
+    "tipo": "salgado",
+    "ingredientes": ["tapioca", "sal"]
+  },
+  {
+    "nome": "tapioca doce",
+    "tipo": "doce",
+    "ingredientes": ["tapioca", "açucar", "coco"]
+  },
+  {
+    "nome": "wrap de frango",
+    "tipo": "salgado",
+    "ingredientes": ["pao folha", "frango", "alface"]
+  },
+  {
+    "nome": "wrap de atum",
+    "tipo": "salgado",
+    "ingredientes": ["pao folha", "atum", "maionese"]
+  },
+  {
+    "nome": "escondidinho de carne",
+    "tipo": "salgado",
+    "ingredientes": ["carne moida", "batata", "queijo"]
+  },
+  {
+    "nome": "escondidinho de frango",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "batata", "queijo"]
+  },
+  {
+    "nome": "risoto simples",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "caldo", "queijo"]
+  },
+  {
+    "nome": "risoto de frango",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "frango", "caldo"]
   }
 ]

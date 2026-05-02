@@ -32,5 +32,8 @@ possuiTodos ingredientesUsuario receita = all (`elem` ingredientesUsuario) (ingr
 recomendarPossiveis :: [String] -> [Receita] -> [Receita]
 recomendarPossiveis ingredientesUsuario receitas = filter (possuiTodos ingredientesUsuario) receitas
 
-receitasQuase :: [String] -> [Receita] -> [Receita]
-receitaQuase 
+ingredientesFaltando :: [String] -> Receita -> [String]
+ingredientesFaltando ingredientesUsuario receita = filter (`notElem` ingredientesUsuario) (ingredientes receita)
+
+recomendarQuase :: [String] -> [Receita] -> [(Receita, [String])]
+recomendarQuase ingredientesUsuario receitas = map (\r -> (r, ingredientesFaltando ingredientesUsuario r)) (filter (\r -> not (null (ingredientesFaltando ingredientesUsuario r))) receitas)
