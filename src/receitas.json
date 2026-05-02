@@ -35,14 +35,14 @@
     "ingredientes": ["banana", "leite", "açucar"]
   },
   {
-    "nome": "café com leite",
+    "nome": "cafe com leite",
     "tipo": "doce",
-    "ingredientes": ["café", "leite", "açucar"]
+    "ingredientes": ["cafe", "leite", "açucar"]
   },
   {
     "nome": "salada de frutas",
     "tipo": "doce",
-    "ingredientes": ["banana", "maçã", "laranja"]
+    "ingredientes": ["banana", "maça", "laranja"]
   },
   {
     "nome": "doce de banana",
@@ -75,34 +75,34 @@
     "ingredientes": ["arroz", "alho", "oleo", "sal"]
   },
   {
-    "nome": "macarrão simples",
+    "nome": "macarrao simples",
     "tipo": "salgado",
-    "ingredientes": ["macarrão", "agua", "sal", "oleo"]
+    "ingredientes": ["macarrao", "agua", "sal", "oleo"]
   },
   {
-    "nome": "macarrão com molho",
+    "nome": "macarrao com molho",
     "tipo": "salgado",
-    "ingredientes": ["macarrão", "molho de tomate", "sal"]
+    "ingredientes": ["macarrao", "molho de tomate", "sal"]
   },
   {
-    "nome": "macarrão com queijo",
+    "nome": "macarrao com queijo",
     "tipo": "salgado",
-    "ingredientes": ["macarrão", "queijo", "sal"]
+    "ingredientes": ["macarrao", "queijo", "sal"]
   },
   {
-    "nome": "sanduíche de queijo",
+    "nome": "sanduiche de queijo",
     "tipo": "salgado",
-    "ingredientes": ["pão", "queijo", "manteiga"]
+    "ingredientes": ["pao", "queijo", "manteiga"]
   },
   {
-    "nome": "sanduíche de presunto",
+    "nome": "sanduiche de presunto",
     "tipo": "salgado",
-    "ingredientes": ["pão", "presunto", "queijo"]
+    "ingredientes": ["pao", "presunto", "queijo"]
   },
   {
     "nome": "torrada com manteiga",
     "tipo": "salgado",
-    "ingredientes": ["pão", "manteiga"]
+    "ingredientes": ["pao", "manteiga"]
   },
   {
     "nome": "pizza simples",
@@ -135,7 +135,7 @@
     "ingredientes": ["batata", "cenoura", "agua", "sal"]
   },
   {
-    "nome": "purê de batata",
+    "nome": "pure de batata",
     "tipo": "salgado",
     "ingredientes": ["batata", "leite", "manteiga", "sal"]
   },
@@ -165,12 +165,12 @@
     "ingredientes": ["banana", "farinha", "ovo", "açucar"]
   },
   {
-    "nome": "pão caseiro",
+    "nome": "pao caseiro",
     "tipo": "salgado",
     "ingredientes": ["farinha", "agua", "fermento", "sal"]
   },
   {
-    "nome": "pão doce",
+    "nome": "pao doce",
     "tipo": "doce",
     "ingredientes": ["farinha", "açucar", "fermento", "leite"]
   },
@@ -190,12 +190,12 @@
     "ingredientes": ["laranja", "agua", "açucar"]
   },
   {
-    "nome": "suco de limão",
+    "nome": "suco de limao",
     "tipo": "doce",
-    "ingredientes": ["limão", "agua", "açucar"]
+    "ingredientes": ["limao", "agua", "açucar"]
   },
   {
-    "nome": "chá",
+    "nome": "cha",
     "tipo": "doce",
     "ingredientes": ["agua", "erva", "açucar"]
   }
