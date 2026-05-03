@@ -1,8 +1,15 @@
+{-# LANGUAGE OverloadedStrings #-}
+
 import Funcoes
 
 main :: IO ()
 main = do
   receitas <- carregarReceitas
+
   let minhas = ["ovo", "farinha", "leite", "açucar"]
-  let resultado = recomendarPossiveis minhas receitas
-  print resultado
+
+  putStrLn "RECEITAS POSSÍVEIS"
+  print (recomendarPossiveis minhas receitas)
+
+  putStrLn "\nRECEITAS QUASE POSSÍVEIS"
+  print (recomendarQuase minhas receitas)
