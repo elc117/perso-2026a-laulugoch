@@ -56,3 +56,6 @@ recomendarQuase :: [String] -> [Receita] -> [(Receita, [String])]
 recomendarQuase ingredientesUsuario receitas =
   let resultados = map (\r -> (r, ingredientesFaltando ingredientesUsuario r)) receitas
   in filter (\(r, _) -> ehQuasePossivel ingredientesUsuario r) resultados
+
+filtrarPorTipo :: String -> [Receita] -> [Receita]
+filtrarPorTipo tipoDesejado receitas = filter (\r -> tipo r == tipoDesejado) receitas

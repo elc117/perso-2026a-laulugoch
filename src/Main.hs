@@ -27,3 +27,14 @@ main = do
       ingredientesParam <- queryParam "ingredientes"
       let ingredientesUsuario = splitOn "," (TL.unpack ingredientesParam)
       json (recomendarQuase ingredientesUsuario receitas)
+
+    get "/recomendadas" $ do
+      ingredientesParam <- queryParam "ingredientes"
+      tipoParam <- queryParam "tipo"
+
+      let ingredientesUsuario = splitOn "," (TL.unpack ingredientesParam)
+      let tipoDesejado = TL.unpack tipoParam
+
+      let receitasFiltradas = filtrarPorTipo tipoDesejado receitas
+
+      json (recomendarPossiveis ingredientesUsuario receitasFiltradas)
