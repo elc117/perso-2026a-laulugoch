@@ -1,21 +1,19 @@
+{-# LANGUAGE OverloadedStrings #-}
+
+import Web.Scotty
 import Funcoes
+import Data.Aeson (object, (.=))
 
 main :: IO ()
 main = do
   receitas <- carregarReceitas
 
-  let teste1 = ["ovo", "farinha", "leite", "açucar"]
-  let teste2 = ["ovo"]
-  let teste3 = ["banana", "leite"]
+  scotty 3000 $ do
 
-  putStrLn "teste 1 (muitos ingredientes)"
-  print (recomendarPossiveis teste1 receitas)
-  print (recomendarQuase teste1 receitas)
+    -- rota teste
+    get "/health" $ do
+      json (object ["status" .= ("ok" :: String)])
 
-  putStrLn "\nteste 2 (1 inrgediente) ==="
-  print (recomendarPossiveis teste2 receitas)
-  print (recomendarQuase teste2 receitas)
-
-  putStrLn "\nteste 3 (2 ingredientes)"
-  print (recomendarPossiveis teste3 receitas)
-  print (recomendarQuase teste3 receitas)
+    -- lista todas as receitas
+    get "/receitas" $ do
+      json receitas

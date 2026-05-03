@@ -4,12 +4,13 @@ module Funcoes where
 
 import Data.Aeson
 import qualified Data.ByteString.Lazy as B
+import GHC.Generics
 
 data Receita = Receita
   { nome :: String
   , tipo :: String
   , ingredientes :: [String]
-  } deriving (Show)
+  } deriving (Show, Generic)
 
 instance FromJSON Receita where
   parseJSON = withObject "Receita" $ \v ->
@@ -17,6 +18,8 @@ instance FromJSON Receita where
       <$> v .: "nome"
       <*> v .: "tipo"
       <*> v .: "ingredientes"
+
+instance ToJSON Receita
 
 carregarReceitas :: IO [Receita]
 carregarReceitas = do
