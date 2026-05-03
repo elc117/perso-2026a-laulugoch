@@ -337,12 +337,12 @@
   {
     "nome": "torta de limao",
     "tipo": "doce",
-    "ingredientes": ["biscoito", "manteiga", "leite condensado", "creme de leite", "limao", "clara", "acucar"]
+    "ingredientes": ["biscoito", "manteiga", "leite condensado", "creme de leite", "limao", "ovo", "acucar"]
   },
   {
     "nome": "pave de chocolate",
     "tipo": "doce",
-    "ingredientes": ["biscoito", "leite condensado", "leite", "gema", "amido de milho", "chocolate", "creme de leite"]
+    "ingredientes": ["biscoito", "leite condensado", "leite", "ovo", "amido de milho", "chocolate", "creme de leite"]
   },
   {
     "nome": "canjica",
@@ -352,7 +352,7 @@
   {
     "nome": "quindim",
     "tipo": "doce",
-    "ingredientes": ["gema", "acucar", "coco", "manteiga"]
+    "ingredientes": ["ovo", "acucar", "coco", "manteiga"]
   },
   {
     "nome": "cocada",
@@ -457,7 +457,7 @@
   {
     "nome": "sagu com creme",
     "tipo": "doce",
-    "ingredientes": ["sagu", "vinho", "acucar", "canela", "cravo", "leite", "gema", "amido de milho"]
+    "ingredientes": ["sagu", "vinho", "acucar", "canela", "cravo", "leite", "ovo", "amido de milho"]
   },
   {
     "nome": "pao de mel",
@@ -472,7 +472,7 @@
   {
     "nome": "suspiro",
     "tipo": "doce",
-    "ingredientes": ["clara", "acucar", "limao"]
+    "ingredientes": ["ovo", "acucar", "limao"]
   },
   {
     "nome": "torta holandesa",
@@ -482,7 +482,7 @@
   {
     "nome": "petit gateau",
     "tipo": "doce",
-    "ingredientes": ["chocolate", "manteiga", "ovo", "gema", "acucar", "farinha"]
+    "ingredientes": ["chocolate", "manteiga", "ovo", "acucar", "farinha"]
   },
   {
     "nome": "bolo de rolo",
@@ -542,7 +542,7 @@
   {
     "nome": "papo de anjo",
     "tipo": "doce",
-    "ingredientes": ["gema", "fermento", "agua", "acucar", "cravo", "canela"]
+    "ingredientes": ["ovo", "fermento", "agua", "acucar", "cravo", "canela"]
   },
   {
     "nome": "bolo formigueiro",
