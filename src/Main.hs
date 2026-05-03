@@ -3,6 +3,8 @@
 import Web.Scotty
 import Funcoes
 import Data.Aeson (object, (.=))
+import Data.List.Split (splitOn)
+import qualified Data.Text.Lazy as TL
 
 main :: IO ()
 main = do
@@ -10,10 +12,18 @@ main = do
 
   scotty 3000 $ do
 
-    -- rota teste
     get "/health" $ do
       json (object ["status" .= ("ok" :: String)])
 
-    -- lista todas as receitas
     get "/receitas" $ do
       json receitas
+
+    get "/possiveis" $ do
+      ingredientesParam <- queryParam "ingredientes"
+      let ingredientesUsuario = splitOn "," (TL.unpack ingredientesParam)
+      json (recomendarPossiveis ingredientesUsuario receitas)
+
+    get "/quase" $ do
+      ingredientesParam <- queryParam "ingredientes"
+      let ingredientesUsuario = splitOn "," (TL.unpack ingredientesParam)
+      json (recomendarQuase ingredientesUsuario receitas)

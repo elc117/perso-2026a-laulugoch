@@ -2,17 +2,17 @@
   {
     "nome": "bolo de chocolate",
     "tipo": "doce",
-    "ingredientes": ["farinha", "ovo", "açucar", "chocolate", "leite", "oleo", "fermento"]
+    "ingredientes": ["farinha", "ovo", "acucar", "chocolate", "leite", "oleo", "fermento"]
   },
   {
     "nome": "bolo simples",
     "tipo": "doce",
-    "ingredientes": ["farinha", "ovo", "açucar", "leite", "fermento"]
+    "ingredientes": ["farinha", "ovo", "acucar", "leite", "fermento"]
   },
   {
     "nome": "panqueca doce",
     "tipo": "doce",
-    "ingredientes": ["farinha", "ovo", "leite", "açucar"]
+    "ingredientes": ["farinha", "ovo", "leite", "acucar"]
   },
   {
     "nome": "panqueca salgada",
@@ -27,27 +27,27 @@
   {
     "nome": "mingau",
     "tipo": "doce",
-    "ingredientes": ["leite", "açucar", "amido de milho"]
+    "ingredientes": ["leite", "acucar", "amido de milho"]
   },
   {
     "nome": "vitamina de banana",
     "tipo": "doce",
-    "ingredientes": ["banana", "leite", "açucar"]
+    "ingredientes": ["banana", "leite", "acucar"]
   },
   {
     "nome": "cafe com leite",
     "tipo": "doce",
-    "ingredientes": ["cafe", "leite", "açucar"]
+    "ingredientes": ["cafe", "leite", "acucar"]
   },
   {
     "nome": "salada de frutas",
     "tipo": "doce",
-    "ingredientes": ["banana", "maça", "laranja"]
+    "ingredientes": ["banana", "maca", "laranja"]
   },
   {
     "nome": "doce de banana",
     "tipo": "doce",
-    "ingredientes": ["banana", "açucar"]
+    "ingredientes": ["banana", "acucar"]
   },
   {
     "nome": "omelete",
@@ -157,12 +157,12 @@
   {
     "nome": "bolo de cenoura",
     "tipo": "doce",
-    "ingredientes": ["cenoura", "farinha", "ovo", "açucar", "oleo", "fermento"]
+    "ingredientes": ["cenoura", "farinha", "ovo", "acucar", "oleo", "fermento"]
   },
   {
     "nome": "bolo de banana",
     "tipo": "doce",
-    "ingredientes": ["banana", "farinha", "ovo", "açucar"]
+    "ingredientes": ["banana", "farinha", "ovo", "acucar"]
   },
   {
     "nome": "pao caseiro",
@@ -172,32 +172,32 @@
   {
     "nome": "pao doce",
     "tipo": "doce",
-    "ingredientes": ["farinha", "açucar", "fermento", "leite"]
+    "ingredientes": ["farinha", "acucar", "fermento", "leite"]
   },
   {
     "nome": "biscoito simples",
     "tipo": "doce",
-    "ingredientes": ["farinha", "açucar", "manteiga"]
+    "ingredientes": ["farinha", "acucar", "manteiga"]
   },
   {
     "nome": "biscoito de chocolate",
     "tipo": "doce",
-    "ingredientes": ["farinha", "açucar", "chocolate", "manteiga"]
+    "ingredientes": ["farinha", "acucar", "chocolate", "manteiga"]
   },
   {
     "nome": "suco de laranja",
     "tipo": "doce",
-    "ingredientes": ["laranja", "agua", "açucar"]
+    "ingredientes": ["laranja", "agua", "acucar"]
   },
   {
     "nome": "suco de limao",
     "tipo": "doce",
-    "ingredientes": ["limao", "agua", "açucar"]
+    "ingredientes": ["limao", "agua", "acucar"]
   },
   {
     "nome": "cha",
     "tipo": "doce",
-    "ingredientes": ["agua", "erva", "açucar"]
+    "ingredientes": ["agua", "erva", "acucar"]
   },
   {
     "nome": "lasanha simples",
@@ -252,7 +252,7 @@
   {
     "nome": "pudim de leite",
     "tipo": "doce",
-    "ingredientes": ["leite condensado", "leite", "ovo", "açucar"]
+    "ingredientes": ["leite condensado", "leite", "ovo", "acucar"]
   },
   {
     "nome": "gelatina",
@@ -277,7 +277,7 @@
   {
     "nome": "arroz doce",
     "tipo": "doce",
-    "ingredientes": ["arroz", "leite", "açucar"]
+    "ingredientes": ["arroz", "leite", "acucar"]
   },
   {
     "nome": "crepioca",
@@ -292,7 +292,7 @@
   {
     "nome": "tapioca doce",
     "tipo": "doce",
-    "ingredientes": ["tapioca", "açucar", "coco"]
+    "ingredientes": ["tapioca", "acucar", "coco"]
   },
   {
     "nome": "wrap de frango",
