@@ -48,4 +48,4 @@ main = do
 
       let receitasFiltradas = filtrarPorTipo tipoDesejado receitas
 
-      json (recomendarQuase ingredientesUsuario receitasFiltradas)
+      json (recomendarQuaseOrdenado ingredientesUsuario receitasFiltradas)

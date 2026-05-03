@@ -5,6 +5,8 @@ module Funcoes where
 import Data.Aeson
 import qualified Data.ByteString.Lazy as B
 import GHC.Generics
+import Data.List (sortBy)
+import Data.Ord (comparing)
 
 data Receita = Receita
   { nome :: String
@@ -59,3 +61,9 @@ recomendarQuase ingredientesUsuario receitas =
 
 filtrarPorTipo :: String -> [Receita] -> [Receita]
 filtrarPorTipo tipoDesejado receitas = filter (\r -> tipo r == tipoDesejado) receitas
+
+recomendarQuaseOrdenado :: [String] -> [Receita] -> [(Receita, [String])]
+recomendarQuaseOrdenado ingredientesUsuario receitas =
+  let resultados = map (\r -> (r, ingredientesFaltando ingredientesUsuario r)) receitas
+      filtrados = filter (\(r, _) -> ehQuasePossivel ingredientesUsuario r) resultados
+  in sortBy (flip (comparing (\(r, _) -> proporcaoIngredientes ingredientesUsuario r))) filtrados
