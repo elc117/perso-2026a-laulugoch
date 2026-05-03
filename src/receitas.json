@@ -323,5 +323,470 @@
     "nome": "risoto de frango",
     "tipo": "salgado",
     "ingredientes": ["arroz", "frango", "caldo"]
+  },
+  {
+    "nome": "beijinho",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "coco", "manteiga", "cravo"]
+  },
+  {
+    "nome": "bolo de cenoura com cobertura de chocolate",
+    "tipo": "doce",
+    "ingredientes": ["cenoura", "ovo", "oleo", "acucar", "farinha", "fermento", "chocolate", "leite", "manteiga"]
+  },
+  {
+    "nome": "torta de limao",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "manteiga", "leite condensado", "creme de leite", "limao", "clara", "acucar"]
+  },
+  {
+    "nome": "pave de chocolate",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "leite condensado", "leite", "gema", "amido de milho", "chocolate", "creme de leite"]
+  },
+  {
+    "nome": "canjica",
+    "tipo": "doce",
+    "ingredientes": ["milho", "leite", "leite condensado", "leite de coco", "amendoim"]
+  },
+  {
+    "nome": "quindim",
+    "tipo": "doce",
+    "ingredientes": ["gema", "acucar", "coco", "manteiga"]
+  },
+  {
+    "nome": "cocada",
+    "tipo": "doce",
+    "ingredientes": ["coco", "acucar", "agua"]
+  },
+  {
+    "nome": "doce de leite caseiro",
+    "tipo": "doce",
+    "ingredientes": ["leite", "acucar", "bicarbonato"]
+  },
+  {
+    "nome": "romeu e julieta",
+    "tipo": "doce",
+    "ingredientes": ["queijo", "goiabada"]
+  },
+  {
+    "nome": "curau de milho",
+    "tipo": "doce",
+    "ingredientes": ["milho", "leite", "acucar", "canela"]
+  },
+  {
+    "nome": "pamonha doce",
+    "tipo": "doce",
+    "ingredientes": ["milho", "leite", "acucar", "manteiga"]
+  },
+  {
+    "nome": "bolo de fuba",
+    "tipo": "doce",
+    "ingredientes": ["fuba", "farinha", "acucar", "leite", "oleo", "ovo", "fermento", "erva-doce"]
+  },
+  {
+    "nome": "rabanada",
+    "tipo": "doce",
+    "ingredientes": ["pao", "leite", "leite condensado", "ovo", "oleo", "acucar", "canela"]
+  },
+  {
+    "nome": "sonho",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "fermento", "acucar", "leite", "ovo", "manteiga", "creme"]
+  },
+  {
+    "nome": "churros",
+    "tipo": "doce",
+    "ingredientes": ["agua", "farinha", "manteiga", "acucar", "sal", "ovo", "oleo", "doce de leite", "canela"]
+  },
+  {
+    "nome": "bolo prestigio",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "acucar", "cacau", "ovo", "oleo", "leite", "fermento", "leite condensado", "coco", "creme de leite"]
+  },
+  {
+    "nome": "brownie",
+    "tipo": "doce",
+    "ingredientes": ["chocolate", "manteiga", "acucar", "ovo", "farinha", "cacau"]
+  },
+  {
+    "nome": "cheesecake de morango",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "manteiga", "queijo", "acucar", "ovo", "baunilha", "geleia"]
+  },
+  {
+    "nome": "sorvete caseiro de flocos",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "creme de leite", "chocolate"]
+  },
+  {
+    "nome": "bicho de pe",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "manteiga", "gelatina", "acucar"]
+  },
+  {
+    "nome": "casadinho",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "manteiga", "acucar", "goiabada"]
+  },
+  {
+    "nome": "pipoca doce",
+    "tipo": "doce",
+    "ingredientes": ["milho", "oleo", "acucar", "agua", "corante"]
+  },
+  {
+    "nome": "maca do amor",
+    "tipo": "doce",
+    "ingredientes": ["maca", "acucar", "agua", "corante", "palito"]
+  },
+  {
+    "nome": "gelatina colorida em camadas",
+    "tipo": "doce",
+    "ingredientes": ["gelatina", "leite condensado", "creme de leite"]
+  },
+  {
+    "nome": "torta de maca",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "manteiga", "agua", "maca", "acucar", "canela", "limao"]
+  },
+  {
+    "nome": "bolo de milho cremoso",
+    "tipo": "doce",
+    "ingredientes": ["milho", "leite", "leite condensado", "ovo", "manteiga", "fuba", "fermento"]
+  },
+  {
+    "nome": "sagu com creme",
+    "tipo": "doce",
+    "ingredientes": ["sagu", "vinho", "acucar", "canela", "cravo", "leite", "gema", "amido de milho"]
+  },
+  {
+    "nome": "pao de mel",
+    "tipo": "doce",
+    "ingredientes": ["leite", "mel", "farinha", "acucar", "chocolate", "cravo", "canela", "bicarbonato"]
+  },
+  {
+    "nome": "maria mole",
+    "tipo": "doce",
+    "ingredientes": ["gelatina", "agua", "acucar", "coco"]
+  },
+  {
+    "nome": "suspiro",
+    "tipo": "doce",
+    "ingredientes": ["clara", "acucar", "limao"]
+  },
+  {
+    "nome": "torta holandesa",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "manteiga", "creme de leite", "leite condensado", "chocolate"]
+  },
+  {
+    "nome": "petit gateau",
+    "tipo": "doce",
+    "ingredientes": ["chocolate", "manteiga", "ovo", "gema", "acucar", "farinha"]
+  },
+  {
+    "nome": "bolo de rolo",
+    "tipo": "doce",
+    "ingredientes": ["manteiga", "acucar", "ovo", "farinha", "goiabada"]
+  },
+  {
+    "nome": "bombom de morango",
+    "tipo": "doce",
+    "ingredientes": ["morango", "leite condensado", "manteiga", "chocolate"]
+  },
+  {
+    "nome": "manjar de coco",
+    "tipo": "doce",
+    "ingredientes": ["leite", "leite de coco", "amido de milho", "acucar", "ameixa", "agua"]
+  },
+  {
+    "nome": "ambrosia",
+    "tipo": "doce",
+    "ingredientes": ["leite", "ovo", "acucar", "limao", "cravo", "canela"]
+  },
+  {
+    "nome": "cajuzinho",
+    "tipo": "doce",
+    "ingredientes": ["amendoim", "leite condensado", "cacau", "acucar"]
+  },
+  {
+    "nome": "camafeu de nozes",
+    "tipo": "doce",
+    "ingredientes": ["nozes", "leite condensado", "manteiga", "fondant"]
+  },
+  {
+    "nome": "banoffee",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "manteiga", "doce de leite", "banana", "creme de leite", "cacau"]
+  },
+  {
+    "nome": "palha italiana",
+    "tipo": "doce",
+    "ingredientes": ["leite condensado", "cacau", "manteiga", "biscoito"]
+  },
+  {
+    "nome": "cuca de banana",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "acucar", "manteiga", "ovo", "leite", "fermento", "banana", "canela"]
+  },
+  {
+    "nome": "tiramisu",
+    "tipo": "doce",
+    "ingredientes": ["biscoito", "cafe", "queijo", "ovo", "acucar", "cacau"]
+  },
+  {
+    "nome": "flan de baunilha",
+    "tipo": "doce",
+    "ingredientes": ["leite", "leite condensado", "ovo", "baunilha", "acucar"]
+  },
+  {
+    "nome": "papo de anjo",
+    "tipo": "doce",
+    "ingredientes": ["gema", "fermento", "agua", "acucar", "cravo", "canela"]
+  },
+  {
+    "nome": "bolo formigueiro",
+    "tipo": "doce",
+    "ingredientes": ["farinha", "acucar", "manteiga", "ovo", "leite", "fermento", "chocolate"]
+  },
+  {
+    "nome": "pao de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["polvilho", "queijo", "leite", "oleo", "ovo", "sal"]
+  },
+  {
+    "nome": "coxinha de frango",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "caldo", "farinha", "manteiga", "ovo", "oleo"]
+  },
+  {
+    "nome": "pastel de carne",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "carne", "cebola", "azeitona", "oleo", "sal"]
+  },
+  {
+    "nome": "pizza de calabresa",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "fermento", "agua", "azeite", "molho", "queijo", "calabresa", "cebola", "oregano"]
+  },
+  {
+    "nome": "lasanha a bolonhesa",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "carne", "molho", "queijo", "presunto"]
+  },
+  {
+    "nome": "torta salgada de liquidificador",
+    "tipo": "salgado",
+    "ingredientes": ["leite", "oleo", "ovo", "farinha", "fermento", "frango", "milho", "ervilha", "queijo"]
+  },
+  {
+    "nome": "empadao de frango",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "manteiga", "ovo", "agua", "frango", "molho", "azeitona", "requeijao"]
+  },
+  {
+    "nome": "kibe frito",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "trigo", "hortela", "cebola", "alho", "pimenta", "oleo", "sal"]
+  },
+  {
+    "nome": "risoto de cogumelos",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "cogumelo", "caldo", "cebola", "vinho", "manteiga", "queijo"]
+  },
+  {
+    "nome": "panqueca de carne",
+    "tipo": "salgado",
+    "ingredientes": ["leite", "farinha", "ovo", "carne", "molho", "queijo", "sal"]
+  },
+  {
+    "nome": "macarrao a carbonara",
+    "tipo": "salgado",
+    "ingredientes": ["macarrao", "bacon", "ovo", "queijo", "pimenta", "sal"]
+  },
+  {
+    "nome": "batata recheada",
+    "tipo": "salgado",
+    "ingredientes": ["batata", "requeijao", "bacon", "queijo"]
+  },
+  {
+    "nome": "omelete recheado",
+    "tipo": "salgado",
+    "ingredientes": ["ovo", "presunto", "queijo", "tomate", "cebola", "sal", "pimenta"]
+  },
+  {
+    "nome": "cachorro-quente de forno",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "salsicha", "molho", "milho", "batata", "queijo"]
+  },
+  {
+    "nome": "frango a parmegiana",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "ovo", "farinha", "molho", "queijo", "presunto", "oleo"]
+  },
+  {
+    "nome": "feijoada",
+    "tipo": "salgado",
+    "ingredientes": ["feijao", "carne", "lombo", "costelinha", "calabresa", "paio", "louro", "alho"]
+  },
+  {
+    "nome": "baiao de dois",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "feijao", "carne", "queijo", "manteiga", "coentro", "cebola"]
+  },
+  {
+    "nome": "moqueca de peixe",
+    "tipo": "salgado",
+    "ingredientes": ["peixe", "azeite", "leite de coco", "pimentao", "tomate", "cebola", "coentro", "limao", "sal"]
+  },
+  {
+    "nome": "hamburguer artesanal",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "pao", "queijo", "alface", "tomate", "bacon", "sal", "pimenta"]
+  },
+  {
+    "nome": "bolinha de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["leite", "farinha", "manteiga", "queijo", "ovo", "oleo", "sal"]
+  },
+  {
+    "nome": "enroladinho de salsicha",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "salsicha", "oleo"]
+  },
+  {
+    "nome": "torta de atum",
+    "tipo": "salgado",
+    "ingredientes": ["leite", "oleo", "ovo", "farinha", "fermento", "atum", "cebola", "tomate", "sal"]
+  },
+  {
+    "nome": "sanduiche natural de frango",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "frango", "maionese", "cenoura", "alface"]
+  },
+  {
+    "nome": "fricasse de frango",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "creme de leite", "milho", "requeijao", "queijo", "batata", "azeitona"]
+  },
+  {
+    "nome": "yakisoba",
+    "tipo": "salgado",
+    "ingredientes": ["macarrao", "carne", "frango", "brocolis", "cenoura", "couve-flor", "shoyu", "oleo"]
+  },
+  {
+    "nome": "bobo de camarao",
+    "tipo": "salgado",
+    "ingredientes": ["camarao", "mandioca", "leite de coco", "azeite", "tomate", "pimentao", "cebola", "coentro", "alho"]
+  },
+  {
+    "nome": "quiche de alho-poro",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "manteiga", "agua", "alho-poro", "ovo", "creme de leite", "queijo", "sal"]
+  },
+  {
+    "nome": "bife a role",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "cenoura", "pimentao", "bacon", "cebola", "molho", "caldo"]
+  },
+  {
+    "nome": "salpicao de frango",
+    "tipo": "salgado",
+    "ingredientes": ["frango", "cenoura", "milho", "ervilha", "maca", "maionese", "batata", "uva passa"]
+  },
+  {
+    "nome": "tapioca rendada",
+    "tipo": "salgado",
+    "ingredientes": ["tapioca", "queijo", "manteiga"]
+  },
+  {
+    "nome": "arroz de forno",
+    "tipo": "salgado",
+    "ingredientes": ["arroz", "presunto", "queijo", "cenoura", "ervilha", "milho", "creme de leite"]
+  },
+  {
+    "nome": "creme de abobora",
+    "tipo": "salgado",
+    "ingredientes": ["abobora", "cebola", "alho", "caldo", "creme de leite", "carne", "azeite"]
+  },
+  {
+    "nome": "caldo verde",
+    "tipo": "salgado",
+    "ingredientes": ["batata", "couve", "calabresa", "alho", "cebola", "azeite", "sal"]
+  },
+  {
+    "nome": "macarrao ao alho e oleo",
+    "tipo": "salgado",
+    "ingredientes": ["macarrao", "alho", "azeite", "pimenta", "salsa", "sal"]
+  },
+  {
+    "nome": "mousse salgada de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["ricota", "maionese", "gelatina", "creme de leite", "alho", "ervas", "sal"]
+  },
+  {
+    "nome": "pao recheado com calabresa",
+    "tipo": "salgado",
+    "ingredientes": ["farinha", "fermento", "agua", "azeite", "calabresa", "cebola", "sal"]
+  },
+  {
+    "nome": "sufle de queijo",
+    "tipo": "salgado",
+    "ingredientes": ["leite", "farinha", "manteiga", "queijo", "ovo", "sal", "noz-moscada"]
+  },
+  {
+    "nome": "almondegas ao sugo",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "pao", "leite", "alho", "cebola", "salsa", "molho", "sal", "pimenta"]
+  },
+  {
+    "nome": "croquete de carne",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "leite", "farinha", "manteiga", "cebola", "ovo", "oleo"]
+  },
+  {
+    "nome": "bauru de forno",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "presunto", "queijo", "tomate", "oregano", "creme de leite", "leite"]
+  },
+  {
+    "nome": "guacamole",
+    "tipo": "salgado",
+    "ingredientes": ["abacate", "tomate", "cebola", "coentro", "limao", "sal", "pimenta"]
+  },
+  {
+    "nome": "ceviche de peixe branco",
+    "tipo": "salgado",
+    "ingredientes": ["peixe", "cebola", "limao", "pimenta", "coentro", "milho", "sal"]
+  },
+  {
+    "nome": "rondelli de presunto e queijo",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "presunto", "queijo", "molho"]
+  },
+  {
+    "nome": "bruschetta de tomate",
+    "tipo": "salgado",
+    "ingredientes": ["pao", "tomate", "alho", "azeite", "manjericao", "sal", "pimenta"]
+  },
+  {
+    "nome": "dadinho de tapioca",
+    "tipo": "salgado",
+    "ingredientes": ["tapioca", "queijo", "leite", "sal", "pimenta", "oleo"]
+  },
+  {
+    "nome": "tabule",
+    "tipo": "salgado",
+    "ingredientes": ["trigo", "tomate", "cebola", "pepino", "hortela", "salsa", "azeite", "limao", "sal"]
+  },
+  {
+    "nome": "rocambole de carne moida",
+    "tipo": "salgado",
+    "ingredientes": ["carne", "cebola", "presunto", "queijo", "bacon", "azeitona"]
+  },
+  {
+    "nome": "tacos mexicanos",
+    "tipo": "salgado",
+    "ingredientes": ["massa", "carne", "tempero", "alface", "queijo", "tomate", "creme"]
   }
 ]
