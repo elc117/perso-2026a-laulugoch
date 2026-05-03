@@ -1,14 +1,5 @@
 # Backend Web com Haskell+Scotty
 
-
-- Estrutura e conteúdo do README:
-
-
-  3. Processo de desenvolvimento: comentários pessoais sobre o desenvolvimento, com evidências de compreensão, incluindo versões com erros e tentativas de solução
-  4. Orientações para execução: instalação de dependências, etc.
-  5. Resultado final: demonstrar execução em GIF animado ou vídeo curto (máximo 60s)
-  6. Referências e créditos (incluindo alguns prompts, se aplicável)
-
 ## 1. Identificação
 
 - Nome: Lauren Auth Lugoch
@@ -142,5 +133,3 @@ Em algumas respostas, a IA sugeriu bibliotecas ou funções que não estavam inc
 ### 8.4 Comentário pessoal sobre o processo envolvendo IA
 
 O uso de IA foi uma ferramenta importante para acelerar o desenvolvimento e me ajudar a compreender as estruturas iniciais do projeto, especialmente conceitos novos como a criação de APIs e o funcionamento do fluxo de um backend web em Haskell. Além disso, a IA foi de grande ajuda na organização inicial do arquivo .cabal, me auxiliando a mapear e configurar corretamente as dependências necessárias para que o projeto compilasse (como aeson, scotty e split). Teve momentos em que as IAs me atrapalharam ao darem soluções erradas e atrasarem o desenvolvimento.
-
----
