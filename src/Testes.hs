@@ -25,5 +25,4 @@ rodarTestes = do
   print (recomendarQuaseOrdenado ["ovo","leite","farinha"] (filtrarPorTipo "doce" receitas))
 
   putStrLn "\nTESTE 7 - Exclusao"
-  print (filtrarExclusao
-    ["acucar","leite","leite condensado","queijo","sal","ovo","pao","carne","frango"] receitas)
+  print (filtrarExclusao ["acucar","leite","leite condensado","queijo","sal","ovo","pao","carne","frango"] receitas)
