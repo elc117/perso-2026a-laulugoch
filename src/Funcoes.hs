@@ -67,3 +67,6 @@ recomendarQuaseOrdenado ingredientesUsuario receitas =
   let resultados = map (\r -> (r, ingredientesFaltando ingredientesUsuario r)) receitas
       filtrados = filter (\(r, _) -> ehQuasePossivel ingredientesUsuario r) resultados
   in sortBy (flip (comparing (\(r, _) -> proporcaoIngredientes ingredientesUsuario r))) filtrados
+
+filtrarExclusao :: [String] -> [Receita] -> [Receita]
+filtrarExclusao proibidos receitas = filter (\r -> all (`notElem` ingredientes r) proibidos) receitas

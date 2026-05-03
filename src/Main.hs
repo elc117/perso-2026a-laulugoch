@@ -49,3 +49,9 @@ main = do
       let receitasFiltradas = filtrarPorTipo tipoDesejado receitas
 
       json (recomendarQuaseOrdenado ingredientesUsuario receitasFiltradas)
+
+    get "/exclusao" $ do
+      ingredientesParam <- queryParam "evitar"
+      let ingredientesProibidos = splitOn "," (TL.unpack ingredientesParam)
+
+      json (filtrarExclusao ingredientesProibidos receitas)

@@ -1,21 +1,29 @@
+module Testes where
+
 import Funcoes
 
-main :: IO ()
-main = do
+rodarTestes :: IO ()
+rodarTestes = do
   receitas <- carregarReceitas
 
-  let teste1 = ["ovo", "farinha", "leite", "açucar"]
-  let teste2 = ["ovo"]
-  let teste3 = ["banana", "leite"]
+  putStrLn "\nTESTE 1 - Possiveis"
+  print (recomendarPossiveis ["ovo","leite","farinha","acucar","fermento"] receitas)
 
-  putStrLn "teste 1 (muitos ingredientes)"
-  print (recomendarPossiveis teste1 receitas)
-  print (recomendarQuase teste1 receitas)
+  putStrLn "\nTESTE 2 - Quase possiveis"
+  print (recomendarQuase ["ovo","leite","farinha"] receitas)
 
-  putStrLn "\nteste 2 (1 inrgediente) ==="
-  print (recomendarPossiveis teste2 receitas)
-  print (recomendarQuase teste2 receitas)
+  putStrLn "\nTESTE 3 - Quase possiveis ordenado"
+  print (recomendarQuaseOrdenado ["ovo","leite","farinha"] receitas)
 
-  putStrLn "\nteste 3 (2 ingredientes)"
-  print (recomendarPossiveis teste3 receitas)
-  print (recomendarQuase teste3 receitas)
+  putStrLn "\nTESTE 4 - Filtrar por tipo"
+  print (filtrarPorTipo "doce" receitas)
+
+  putStrLn "\nTESTE 5 - Possiveis + tipo"
+  print (recomendarPossiveis ["ovo","leite","farinha","acucar"] (filtrarPorTipo "doce" receitas))
+
+  putStrLn "\nTESTE 6 - Quase possiveis + tipo"
+  print (recomendarQuaseOrdenado ["ovo","leite","farinha"] (filtrarPorTipo "doce" receitas))
+
+  putStrLn "\nTESTE 7 - Exclusao"
+  print (filtrarExclusao
+    ["acucar","leite","leite condensado","queijo","sal","ovo","pao","carne","frango"] receitas)
