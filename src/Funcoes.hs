@@ -38,7 +38,18 @@ possuiAlgum ingredientesUsuario receita = any (`elem` ingredientesUsuario) (ingr
 recomendarPossiveis :: [String] -> [Receita] -> [Receita]
 recomendarPossiveis ingredientesUsuario receitas = filter (possuiTodos ingredientesUsuario) receitas
 
+proporcaoIngredientes :: [String] -> Receita -> Double
+proporcaoIngredientes ingredientesUsuario receita =
+  let total = length (ingredientes receita)
+      tem = length (filter (`elem` ingredientesUsuario) (ingredientes receita))
+  in fromIntegral tem / fromIntegral total
+
+ehQuasePossivel :: [String] -> Receita -> Bool
+ehQuasePossivel ingredientesUsuario receita =
+  let p = proporcaoIngredientes ingredientesUsuario receita
+  in p >= 0.5 && p < 1.0
+
 recomendarQuase :: [String] -> [Receita] -> [(Receita, [String])]
 recomendarQuase ingredientesUsuario receitas =
   let resultados = map (\r -> (r, ingredientesFaltando ingredientesUsuario r)) receitas
-  in filter (\(r, faltam) -> not (null faltam) && possuiAlgum ingredientesUsuario r) resultados
+  in filter (\(r, _) -> ehQuasePossivel ingredientesUsuario r) resultados
