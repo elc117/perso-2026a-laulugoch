@@ -7,6 +7,9 @@ services:
     dockerContext: .
     healthCheckPath: /health
     autoDeployTrigger: commit
+    envVars:
+      - key: PORT
+        value: 3000
     buildFilter:
       paths:
         - Dockerfile
