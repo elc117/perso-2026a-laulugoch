@@ -147,3 +147,15 @@ Em algumas respostas, a IA sugeriu bibliotecas ou funções que não estavam inc
 ### 8.4 Comentário pessoal sobre o processo envolvendo IA
 
 O uso de IA foi uma ferramenta importante para acelerar o desenvolvimento e me ajudar a compreender as estruturas iniciais do projeto, como a estruturação dos arquivos para deploy, arquivos com cabal, a utilização de JSON e a sua conversão para Haskell. Além disso, a IA foi de grande ajuda na organização inicial do arquivo .cabal, me auxiliando a mapear e configurar corretamente as dependências necessárias para que o projeto compilasse (como aeson, scotty e split). Teve momentos em que as IAs me atrapalharam ao darem soluções erradas e atrasarem o desenvolvimento.
+
+---
+
+## 9. Referências e créditos
+
+- Materiais de aula disponibilizados no GitHub
+- json-to-haskell https://hackage.haskell.org/package/json-to-haskell
+- JSON para Haskell https://www.reddit.com/r/haskell/comments/10qv38v/help_with_json_parsing_in_haskell/?tl=pt-br
+- Sobre scotty https://hackage-content.haskell.org/package/scotty-0.30/docs/Web-Scotty.html
+- Sobre os módulos https://haskell.tailorfontela.com.br/modules
+- Criação de dados https://haskell.tailorfontela.com.br/making-our-own-types-and-typeclasses
+- IAs (ChatGPT e Gemini) para debugs, estruturação
