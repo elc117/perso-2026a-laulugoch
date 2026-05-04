@@ -2,17 +2,13 @@ FROM haskell:9.8.4
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    libsqlite3-dev \
-    pkg-config \
- && rm -rf /var/lib/apt/lists/*
-
+# Copia todos os arquivos do projeto para dentro do container
 COPY . .
 
-WORKDIR /app/src/06-scotty-sqlite
-
+# Atualiza o cabal, constrói o seu executável "receitas" e o move para a pasta de binários
 RUN cabal update && \
     cabal build && \
-    cp "$(cabal list-bin demo-scotty-sqlite)" /usr/local/bin/demo-scotty-sqlite
+    cp "$(cabal list-bin receitas)" /usr/local/bin/receitas
 
-CMD ["demo-scotty-sqlite"]
+# Comando que o Render vai executar para ligar o servidor
+CMD ["receitas"]

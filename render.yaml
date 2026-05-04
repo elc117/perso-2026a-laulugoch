@@ -1,17 +1,18 @@
 services:
-  - name: demo-scotty-codespace-2026a
+  - name: sistema-receitas
     type: web
     runtime: docker
     plan: free
     dockerfilePath: ./Dockerfile
     dockerContext: .
-    healthCheckPath: /healthz
+    healthCheckPath: /health
     autoDeployTrigger: commit
     buildFilter:
       paths:
         - Dockerfile
         - render.yaml
         - src/**
+        - receitas.cabal
       ignoredPaths:
         - README.md
-        - assets/**    
+        - assets/**
