@@ -76,9 +76,9 @@ OBSERVAÇÃO SOBRE OS PARÂMETROS: Os parâmetros de ingredientes devem ser envi
 
 ## 6. Deploy
 
-Link do serviço publicado: <complete aqui>
+Link do serviço publicado: <https://sistema-receitas-r7cg.onrender.com>
 
-Descreva de forma breve como você realizou o deploy a partir da base e das orientações fornecidas. Caso não tenha conseguido, explique o que tentou.
+Segui as orientações que estavam no material da aula sobre Web Service em Haskell e tive ajuda do Gemini Pro para fazer as alterações necessários nos arquivos render.yaml e no Dockerfile.
 
 ---
 
