@@ -84,9 +84,18 @@ Descreva de forma breve como você realizou o deploy a partir da base e das orie
 
 ## 7. Resultado final
 
-Apresente o resultado final do trabalho, na forma de GIF animado ou vídeo curto (máximo 60s)
+[Link do vídeo](https://youtu.be/Hznz5baNv88)
 
-Você também pode acrescentar uma breve explicação sobre o que está sendo demonstrado.
+No vídeo de demonstração, é mostrado o funcionamento do sistema através do terminal utilizando comandos curl. Cada requisição representa um cenário diferente de uso da aplicação, validando as funções puras implementadas no backend e sua integração com as rotas HTTP.
+
+As execuções demonstradas são:
+
+/receitas: retorna todas as receitas disponíveis no sistema, carregadas a partir do arquivo JSON.
+/possiveis: exibe apenas as receitas que podem ser totalmente preparadas com os ingredientes fornecidos.
+/quase: retorna receitas em que o usuário já possui pelo menos parte relevante dos ingredientes (mínimo de 50%).
+/possiveis-por-tipo: filtra receitas por tipo (ex: doce ou salgado) e retorna apenas as possíveis com os ingredientes informados.
+/quase-por-tipo: combina o filtro por tipo com a recomendação de receitas quase possíveis, ordenadas por maior compatibilidade.
+/exclusao: remove receitas que contenham ingredientes proibidos informados pelo usuário.
 
 ---
 
